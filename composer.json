@@ -1,0 +1,19 @@
+{
+    "name": "utilisateur/learnphp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    },
+    "authors": [
+        {
+            "name": "oussema harrabi",
+            "email": "harrabi.oussema6@hotmail.fr"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "twig/twig": "^3.10",
+        "symfony/dotenv": "^7.1"
+    }
+}
